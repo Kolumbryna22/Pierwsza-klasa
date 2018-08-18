@@ -1,4 +1,4 @@
-$(function() {
+(function() {
     'use strict';
 
     var iPhone9 = new Phone('Apple', 4500, 'silver');
@@ -18,4 +18,4 @@ $(function() {
     iPhone9.printInfo();
     SamsungGalaxyS9.printInfo();
     HuaweiP20Pro.printInfo();
-});
+})();
